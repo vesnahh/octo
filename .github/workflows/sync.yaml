@@ -2,7 +2,7 @@ name: Synchronization
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '30 */4 * * *'
   workflow_dispatch:
     inputs:
       execution_context:
